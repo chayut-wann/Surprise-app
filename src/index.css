@@ -1,0 +1,10 @@
+/* @import "tailwindcss"; */
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* ส่วนเสริมเพื่อให้แสดงผลภาษาไทยสวยขึ้น (Optional) */
+body {
+  font-family: 'Sarabun', sans-serif;
+}
