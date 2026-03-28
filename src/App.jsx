@@ -4,9 +4,9 @@ import './App.css';
 
 // --- 1. ส่วนตั้งค่า (CONFIGURATION) ---
 const CONFIG = {
-  correctPin: "358137",
+  correctPin: "639636",
   title: "Reindeer 💖",
-  letterContent: `ถึงฺ Baiyok,
+  letterContent: `ถึงฺ Baiyok
 
   Happy Birthday & Happy Anniversary na kub
 ขอบคุณสำหรับทุกอย่างที่ผ่านมานะ
@@ -231,15 +231,15 @@ function AILoveNote() {
       <div className="card-body text-center p-4">
         <div className="d-flex align-items-center justify-content-center gap-2 mb-3">
           <Sparkles className="text-warning animate-spin-slow" />
-          <h5 className="fw-bold text-purple m-0 font-mali">Magic Love Note ✨</h5>
+          <h5 className="fw-bold text-purple m-0 font-mali"> Love Note ✨</h5>
         </div>
         <div className="note-display">
           {loading ? (
-            <div className="text-purple"><Heart className="animate-ping mb-2 mx-auto" size={24} /><small>กำลังปรุงยาเสน่ห์...</small></div>
+            <div className="text-purple"><Heart className="animate-ping mb-2 mx-auto" size={24} /><small>กำลังคิดอะไรอยู่น้า...</small></div>
           ) : note ? (
             <p className="fs-5 text-dark m-0 font-handwriting animate-zoom-in">"{note}"</p>
           ) : (
-            <p className="text-muted small m-0">กดปุ่มด้านล่างเพื่อเสกข้อความ</p>
+            <p className="text-muted small m-0">กดปุ่มด้านล่างเพื่อรับข้อความ</p>
           )}
         </div>
         <button onClick={generateNote} disabled={loading} className="btn btn-gradient-purple text-white rounded-pill px-4 py-2 fw-bold shadow-sm hover-lift">
@@ -301,7 +301,7 @@ function MainContent({ onLogout }) {
           <div className="d-inline-block bg-white p-3 rounded-circle shadow-sm mb-3">
             <Stars className="text-warning animate-spin-slow" size={32} />
           </div>
-          <h1 className="display-5 fw-bold text-dark font-mali">Welcome Back!</h1>
+          <h1 className="display-5 fw-bold text-dark font-mali">Welcome !</h1>
         </div>
 
         {/* AI Love Note */}
